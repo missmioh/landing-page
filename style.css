@@ -104,3 +104,24 @@ button {
     color: #202020;
     flex: 1 1 auto;
 }
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 300px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 600;
+}
