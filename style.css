@@ -37,6 +37,13 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0;
+}
+
 button {
     background-color: #3882F6;
     border-radius: 5px;
@@ -62,4 +69,38 @@ button {
 #img-main {
     flex: 1;
     background-color: grey;
+}
+
+.details {
+    text-align: center;
+    padding: 50px 300px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.media-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 25px;
+}
+
+.placeholder {
+    height: 150px;
+    /* remove height requirement when replacing with a picture */
+    width: 150px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+    flex: 1 1 auto;
+}
+
+.text {
+    color: #202020;
+    flex: 1 1 auto;
 }
