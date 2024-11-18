@@ -108,7 +108,7 @@ button {
 
 .placeholder {
     height: 150px;
-    /* remove height requirement when replacing with a picture */
+    /* remove width requirement when replacing with a picture */
     width: 150px;
     border-radius: 10px;
     border: 5px solid #3882F6;
@@ -150,4 +150,13 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
